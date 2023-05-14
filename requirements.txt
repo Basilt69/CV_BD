@@ -1,5 +1,5 @@
 # # Streamlit
-streamlit==1.22.0  # https://streamlit.io/
+streamlit==1.10.0  # https://streamlit.io/
 streamlit-cropper==0.2.1  # https://github.com/turner-anderson/streamlit-cropper
 #
 # # Watchdog
