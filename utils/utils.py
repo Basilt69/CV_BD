@@ -121,7 +121,7 @@ def upload_video():
 
 def put_video_link():
     # video_url = validate_url(st.text_input(f"Ссылка на Видео {FILE_TYPES_V}: ", choice(URLS_V)))
-    video_url = validate_url(st.text_input(f"Ссылка на Видео {FILE_TYPES_V}: ", "https://www.youtube.com/watch?v=cQ54GDm1eL0"))
+    video_url = validate_url(st.text_input(f"Ссылка на Видео {FILE_TYPES_V}: ", "https://www.youtube.com/watch?v=eseGwoxiqNs"))
     st.video(video_url)
 
     video = pafy.new(video_url)
